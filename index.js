@@ -18,4 +18,4 @@ function unleashDog(dogName, dogBreed) {
   console.log("Unleash ${dogName} the ${dogBreed}");
 }
 
-const routine = [wakeDog, leashDog, walk]
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
