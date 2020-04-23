@@ -5,8 +5,19 @@ function wakeDog(dogName, dogBreed) {
 function leashDog(dogName, dogBreed) {
   console.log("Leash ${dogName} the ${dogBreed}");
 }
-console.log("Leash Byron the poodle");
-console.log("Walk to the park with Byron the poodle");
-console.log("Throw the frisbee for Byron the poodle");
-console.log("Walk home with Byron the poodle");
-console.log("Unleash Byron the poodle");
+function walkTpPark(dogName, dogBreed) {
+  console.log("Walk to the park with Byron the poodle");
+}
+function throwFrisbee(dogName, dogBreed) {
+  console.log("Throw the frisbee for ${dogName} the ${dogBreed}");
+}
+function walkHome(dogName, dogBreed) {
+  console.log("Walk home with ${dogName} the ${dogBreed}");
+}
+function unleashDog(dogName, dogBreed) {
+  console.log("Unleash ${dogName} the %{dogBreed}");
+}
+  
+
+
+
